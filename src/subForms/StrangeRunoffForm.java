@@ -57,6 +57,6 @@ public class StrangeRunoffForm extends JDialog implements subForms.IComputeResul
     }
 
     private void countAndShowResult() {
-        JOptionPane.showMessageDialog(this, "Сумарна рiчна кiлькiсть виносу речовин з поверхневим стоком: " + String.valueOf(countResult()), "Результат", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Сумарна рiчна кiлькiсть виносу речовин з поверхневим стоком: " + String.valueOf(countResult() + " г/рік"), "Результат", JOptionPane.PLAIN_MESSAGE);
     }
 }

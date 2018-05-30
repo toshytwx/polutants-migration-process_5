@@ -55,7 +55,7 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Граничне допустиме значення показника:"/>
+              <text value="Граничне допустиме значення показника (г/м3):"/>
             </properties>
           </component>
           <component id="36c29" class="javax.swing.JLabel">
@@ -63,7 +63,7 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Максимальна годинна витрата стiчних вод:"/>
+              <text value="Максимальна годинна витрата стiчних вод (м3/год):"/>
             </properties>
           </component>
           <component id="a6aed" class="javax.swing.JTextField" binding="edgeValueTf">

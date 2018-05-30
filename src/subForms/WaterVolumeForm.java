@@ -53,6 +53,6 @@ public class WaterVolumeForm extends JDialog implements subForms.IComputeResult{
     }
 
     private void countAndShowResult() {
-        JOptionPane.showMessageDialog(this, "Об'єм води для поливання території: " + String.valueOf(countResult()), "Результат", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Об'єм води для поливання території: " + String.valueOf(countResult() + " м3/рік"), "Результат", JOptionPane.PLAIN_MESSAGE);
     }
 }

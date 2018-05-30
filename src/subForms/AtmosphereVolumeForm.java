@@ -55,6 +55,6 @@ public class AtmosphereVolumeForm extends JDialog implements subForms.IComputeRe
     }
 
     private void countAndShowResult() {
-        JOptionPane.showMessageDialog(this, "Об'єм атмосферних опадів за рiк: " + String.valueOf(countResult()), "Результат", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Об'єм атмосферних опадів за рiк: " + String.valueOf(countResult() + " м3/рік"), "Результат", JOptionPane.PLAIN_MESSAGE);
     }
 }
